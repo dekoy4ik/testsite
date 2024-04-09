@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Montserrat;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    transform: translateY(-2px);
+}
+
+.recommendations, .main {
+    font-size: 18px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+    margin: 20px auto;
+    border-radius: 15px;
+    font-weight: 500;
+    max-width: 90%;
+}
+
+.title img, .block1 img, .block2 img, .block3 img, .block4 img, .block5 img, .block6 img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+    max-width: 90%; 
+}
+
+.title{
+    text-align: center;
+}
+.title p {
+    text-align: left;
+}
+
+.recommendations div {
+    margin: 40px auto;
+}
